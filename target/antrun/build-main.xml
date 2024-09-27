@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <move file="C:\Users\ADMIN\eclipse-workspace\Autotest_Selenium\target/Autotest_Selenium-apexconf.jar" tofile="C:\Users\ADMIN\eclipse-workspace\Autotest_Selenium\target/Autotest_Selenium.apc"/>
+</target>
+</project>

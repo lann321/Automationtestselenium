@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-25T19:51:30 ICT" name="Default suite" finished-at="2024-09-25T19:51:48 ICT" duration-ms="17893">
+    <groups>
+    </groups>
+    <test started-at="2024-09-25T19:51:30 ICT" name="Default test" finished-at="2024-09-25T19:51:48 ICT" duration-ms="17893">
+      <class name="automation.testsuite.ThietBiNhaBep">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.ThietBiNhaBep@4a883b15]" started-at="2024-09-25T19:51:30 ICT" name="openBrowser" finished-at="2024-09-25T19:51:44 ICT" duration-ms="14300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="DanhSachGiaThap()[pri:12, instance:automation.testsuite.ThietBiNhaBep@4a883b15]" started-at="2024-09-25T19:51:44 ICT" name="DanhSachGiaThap" finished-at="2024-09-25T19:51:48 ICT" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DanhSachGiaThap -->
+        <test-method is-config="true" signature="CloseFireFox()[pri:0, instance:automation.testsuite.ThietBiNhaBep@4a883b15]" started-at="2024-09-25T19:51:48 ICT" name="CloseFireFox" finished-at="2024-09-25T19:51:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseFireFox -->
+      </class> <!-- automation.testsuite.ThietBiNhaBep -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

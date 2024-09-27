@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+
+	<test name="Regression test test suite on chrome ">
+	<parameter name = "browser" value="chrome"></parameter>
+		<classes>
+			
+		</classes>	
+	</test> 
+	
+	<test name="Regression test test suite on firefox ">
+	<parameter name = "browser" value="firefox"></parameter>
+		<classes>
+			<class name="automation.testsuite.Tubep_FilterTest" />
+			<class name="automation.testsuite.Tubep_LapDatTaiNhaTest" />
+			<class name="automation.testsuite.Tubep_MuaNgayTest" />
+			<class name="automation.testsuite.Tubep_MuaTGTest" /> 
+			<class name="automation.testsuite.Khaosat_Thietbinhabep" /> 
+			<class name="automation.testsuite.MuaNgay_Thietbinhabep" /> 
+			<class name="automation.testsuite.Muatragop_Thietbinhabep" /> 
+			<class name="automation.testsuite.Sanpham_Thietbinhabep" /> 
+			<class name="automation.testsuite.ThietBiNhaBep" /> 
+		</classes>	
+	</test> 
+	
+		<test name="Regression test test suite on edge ">
+	<parameter name = "browser" value="edge"></parameter>
+		<classes>
+	
+		</classes>	
+	</test> 
+	
+</suite> <!-- Suite -->
